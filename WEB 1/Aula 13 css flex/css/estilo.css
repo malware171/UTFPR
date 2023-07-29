@@ -1,0 +1,77 @@
+html {
+	font-size: 20px;
+	background: #dedede;
+}
+
+header {
+	min-width: 900px;
+	background: #000936;
+	color: white;
+}
+
+.site-largura {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	padding: 1rem 0;
+	margin-bottom: 1rem;
+	font: 3em 'Pacifico', cursive;
+}
+
+.logo {
+	height: 0.8em;
+}
+
+.menu {
+	display: flex;
+	gap: 50px;
+	margin-bottom: 1rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row; /* Não precisa, já que o flex cria uma linha por padrão */
+	/* flex-flow: row wrap; */ /* Faz a mesma coisa que wrap e direction */
+	row-gap: 25px;
+	column-gap: 25px;
+	/* gap: 25px */ /* Sintaxe: <row-gap> <column-gap> */
+	margin-bottom: 1rem;
+}
+
+article {
+	flex: 200px;
+}
+
+.caixa-branca {
+	padding: .5em;
+	background: white;
+	border-top: 2px solid #bababa;
+	border-radius: 5px;
+	height: 12em; /* Teste sem altura fixa */
+}
+
+h2 {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+footer {
+	min-width: 900px;
+	background: #000936;
+	padding: 1em;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	line-height: 1.5em;
+}
+
+footer a:link,
+footer a:active,
+footer a:hover,
+footer a:visited {
+	color: #e1b5bb;
+}

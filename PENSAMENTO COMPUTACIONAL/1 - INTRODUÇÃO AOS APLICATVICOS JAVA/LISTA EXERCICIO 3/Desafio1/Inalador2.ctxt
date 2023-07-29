@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Inalador2
+comment1.params=
+comment1.target=Inalador2()
+comment2.params=
+comment2.target=int\ getDoses()
+comment3.params=
+comment3.target=java.lang.String\ abrirInalador()
+numComments=4

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Sistema Online</title>
+		<meta charset="utf-8">
+		<meta name="referrer" content="never">
+		<meta name="referrer" content="no-referrer">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<h1>Sistema Online</h1>
+		<form action="index.html" method="POST">
+			<h2>Cadastro</h2>
+			<div class="margem-baixo">
+				<input class="campo" placeholder="Campo desabilitado de exemplo" disabled>
+			</div>
+			<div class="margem-baixo">
+				<input type="text" name="email" class="campo" placeholder="E-mail" required autofocus>
+			</div>
+			<div class="margem-baixo">
+				<input type="password" name="senha" class="campo" placeholder="Senha" required>
+			</div>
+			<div class="margem-baixo">
+				<select name="plano" class="campo" required>
+					<option value="">Escolher o plano</option>
+					<optgroup label="Plano mensal">
+						<option value="basico_mensal">Básico R$ 10,00</option>
+						<option value="pro_mensal">Profissional R$ 20,00</option>
+					</optgroup>
+					<optgroup label="Plano anual">
+						<option value="basico_anual">Básico R$ 100,00</option>
+						<option value="pro_anual">Profissional R$ 200,00</option>
+					</optgroup>
+				</select>
+			</div>
+			<div class="margem-baixo">
+				<textarea class="campo" placeholder="&quot;Todo homem toma os limites de seu próprio campo de visão como os limites do mundo.&quot; (Schopenhauer)"></textarea>
+			</div>
+			<div class="margem-baixo">
+				<input type="file" name="foto" class="campo">
+			</div>
+			<div class="margem-baixo">
+				Deseja receber promoções?
+				<label>
+					<input type="radio" name="promocao" value="sim" checked> Sim
+				</label>
+				<label>
+					<input type="radio" name="promocao" value="nao"> Não
+				</label>
+			</div>
+			<div class="margem-baixo">
+				<button>Cadastrar</button>
+			</div>
+			<div class="cadastrar-se">
+				Já possui cadastro? <a href="index.html">Entrar no sistema</a>
+			</div>
+		</form>
+	</body>
+</html>

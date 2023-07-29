@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Individuo
+comment1.params=nome\ idade
+comment1.target=Individuo(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ setNome()
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=
+comment4.target=void\ setIdade()
+comment5.params=
+comment5.target=int\ getIdade()
+comment6.params=
+comment6.target=java.lang.String\ getVerificarMaioridade()
+numComments=7

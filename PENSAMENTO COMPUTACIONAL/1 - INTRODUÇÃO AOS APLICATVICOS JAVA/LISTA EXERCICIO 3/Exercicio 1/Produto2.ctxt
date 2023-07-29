@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Produto2
+comment1.params=descricao\ peso\ preco
+comment1.target=Produto2(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getDescricao()
+comment3.params=descricao
+comment3.target=void\ setDescricao(java.lang.String)
+comment4.params=
+comment4.target=double\ getPrecoQuilo()
+comment5.params=
+comment5.target=java.lang.String\ geraEtiqueta()
+numComments=6
