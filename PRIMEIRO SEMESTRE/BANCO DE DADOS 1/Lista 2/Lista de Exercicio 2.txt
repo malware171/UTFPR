@@ -1,0 +1,13 @@
+4. SELECT DISTINCT empregado.id_empregado, sobrenome, empregado_projeto.id_projeto, projeto.descricao FROM empregado JOIN empregado_projeto USING (id_empregado) JOIN projeto USING (id_projeto) WHERE projeto.id_projeto = '4' ORDER BY empregado.id_empregado;
+
+5. SELECT empregado.id_empregado, empregado.sobrenome, projeto.id_projeto, projeto.descricao, atividade.id_atividade, atividade.descricao, empregado_projeto.data_inicio
+FROM empregado JOIN empregado_projeto USING (id_empregado) JOIN projeto USING (id_projeto) JOIN atividade USING (id_atividade)
+WHERE empregado_projeto.data_inicio = '2015-08-01' ORDER BY id_projeto AND id_empregado
+
+6. SELECT departamento.id_departamento, empregado.sobrenome, projeto.descricao, empregado_projeto.id_atividade
+FROM departamento JOIN empregado USING (id_departamento) JOIN projeto ON empregado.id_empregado=projeto.id_projeto
+JOIN empregado_projeto ON projeto.id_projeto=empregado_projeto.id_atividade 
+WHERE projeto.id_departamento = 3
+ORDER BY projeto.descricao, empregado_projeto.data_inicio
+
+select projeto.id_departamento, sobrenome, descricao, id_atividade from projeto join empregado_projeto using(id_projeto) join empregado using(id_empregado) where projeto.id_departamento=3 order by descricao, empregado_projeto.data_inicio;

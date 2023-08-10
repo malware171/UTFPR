@@ -1,0 +1,59 @@
+html {
+	font-size: 20px;
+	background: #dedede;
+}
+
+header {
+	min-width: 900px;
+	background: #000936;
+	color: white;
+}
+.largura-site {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	padding: 0.4em 0;
+	font: 3em 'Pacifico', cursive;
+}
+
+.logo {
+	height: 0.8em;
+}
+
+.menu {
+	display: flex;
+	gap: 3em;
+	padding: 20px 0px;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+article {
+	flex: 200px;
+	border-radius:  6px;
+	border-top: 2px solid rgb(192, 189, 189) ;
+}
+
+h3 {
+	font-weight: bold;
+	margin-bottom: 0.8em;
+}
+
+.caixa-branca {
+	background: white;
+	padding: 15px;
+}
+
+footer {
+	font: 1em 'Pacifico', cursive;
+	color: white;
+	background: #000936;
+	text-align: center;
+}

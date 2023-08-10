@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Sistema Online</title>
+		<meta charset="utf-8">
+		<meta name="referrer" content="never">
+		<meta name="referrer" content="no-referrer">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<h1>Sistema Online</h1>
+		<form method="POST">
+			<h2>Login</h2>
+			<div class="margem-baixo">
+				<label for="email">E-mail</label>
+			</div>
+			<div class="margem-baixo">
+				<input type="text" id="email" name="email" class="campo" autofocus>
+			</div>
+			<div class="margem-baixo">
+				<label for="senha">Senha</label>
+			</div>
+			<div class="margem-baixo">
+				<input type="password" id="senha" name="senha" class="campo">
+			</div>
+			<div class="margem-baixo">
+				<label>
+					<input type="checkbox" name="lembrar" class="">
+					Lembrar de mim
+				</label>
+			</div>
+			<div class="margem-baixo">
+				<!--
+				Modo atual de criar um botão. Pode bugar em navegadores antigos (antes de 2010).
+				-->
+				<button>Entrar</button>
+				<!--
+				Modo antigo.
+				<input type="submit" value="Entrar">
+				-->
+			</div>
+			<div class="cadastrar-se">
+				ou <a href="cadastro.html">Cadastrar-se</a>
+			</div>
+		</form>
+	</body>
+</html>

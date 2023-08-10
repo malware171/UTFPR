@@ -1,0 +1,39 @@
+2. SELECT id_empregado, sobrenome, data_nascimento, salario FROM empregado WHERE salario > 1000 ORDER BY salario DESC;
+
+3. SELECT sobrenome, primeiro_nome, id_departamento FROM empregado WHERE data_nascimento >= '1994-01-01' AND data_nascimento <= '1994-12-31' AND salario > 500 ORDER BY id_departamento DESC, salario ASC;
+
+4. SELECT DISTINCT id_nivel_escolaridade 
+FROM empregado 
+ORDER BY id_nivel_escolaridade DESC
+
+6. SELECT sobrenome, salario 
+FROM empregado
+WHERE data_nascimento > '1985-01-01' AND salario > '1000' AND bonus < '500'
+
+7. SELECT sobrenome, salario, bonus FROM empregado WHERE salario > '1000' AND bonus > '100' OR id_nivel_escolaridade > '4' OR salario > '2000' ORDER BY sobrenome;
+
+8. SELECT sobrenome, salario, bonus FROM empregado WHERE salario > '1000' AND bonus >= '400' OR bonus <= '500' AND id_nivel_escolaridade > '5' ORDER BY sobrenome;
+
+9. SELECT * FROM empregado WHERE sobrenome LIKE 'G%' AND salario > '1000' OR salario < '4000' AND sexo = 'M' AND bonus > '200' ORDER BY sobrenome;
+
+10. SELECT nome
+FROM departamento
+WHERE id_departamento_gerencia is null
+
+11. SELECT nome
+FROM departamento
+WHERE nome LIKE 'D%S' AND id_gerente is NOT null 
+
+12. SELECT * FROM departamento WHERE nome LIKE '%sistema%';
+
+
+13. SELECT sobrenome, salario, bonus
+FROM empregado
+WHERE salario <'5000' AND bonus is NOT null
+LIMIT 2;
+
+14. SELECT sobrenome, salario, bonus, id_empregado
+FROM empregado
+WHERE (salario BETWEEN 500 AND 2000) ORDER BY sobrenome
+LIMIT 2 OFFSET 2;
+

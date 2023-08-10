@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=notaSemestre1\ notaSemestre2
+comment1.target=Aluno(float,\ float)
+comment2.params=
+comment2.target=void\ setNotaPrimeiroSemestre()
+comment3.params=
+comment3.target=float\ getNotaPrimeiroSemestre()
+comment4.params=
+comment4.target=void\ setSegundoSemestre()
+comment5.params=
+comment5.target=float\ getNotaSegundoSemestre()
+comment6.params=
+comment6.target=java.lang.String\ getMaiorNotaSemestre()
+numComments=7
