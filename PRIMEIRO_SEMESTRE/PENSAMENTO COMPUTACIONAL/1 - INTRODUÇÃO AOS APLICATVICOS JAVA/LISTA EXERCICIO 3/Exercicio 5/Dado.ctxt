@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Dado
+comment1.params=faces
+comment1.target=Dado(int)
+comment2.params=
+comment2.target=void\ setNumeroDeFaces()
+comment3.params=
+comment3.target=int\ getNumeroDeFaces()
+comment4.params=numero
+comment4.target=void\ setNumeroAleatorio(int)
+comment5.params=
+comment5.target=int\ getNumeroAleatorio()
+comment6.params=
+comment6.target=java.lang.String\ rolarDado()
+numComments=7

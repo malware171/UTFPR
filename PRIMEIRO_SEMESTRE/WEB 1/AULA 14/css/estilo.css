@@ -1,0 +1,63 @@
+.largura-menu {
+	background: black;
+}
+
+
+.menu-superior {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 0.5em;
+	font: 80% sans-serif;
+	width: 900px;
+	margin: 0 auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+.menu-esquerdo {
+	word-spacing: 15px;
+}
+.menu-direito {
+	word-spacing: 15px;
+}
+
+.largura-site {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	font: bold 4em sans-serif;
+}
+.menu-principal {
+	word-spacing: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: 2px solid black;
+}
+img {
+	width: 100%;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+main {
+	display: flex;
+}
+.propaganda-esquerda {
+	flex: 2;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1em;
+}
+

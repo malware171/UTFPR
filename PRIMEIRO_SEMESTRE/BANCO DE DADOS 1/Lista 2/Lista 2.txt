@@ -1,0 +1,27 @@
+1.  SELECT empregado.primeiro_nome, sobrenome, departamento.nome
+ FROM empregado JOIN departamento
+ ON empregado.id_departamento=departamento.id_departamento
+ ORDER BY empregado.sobrenome;
+
+2.  ------------------- TENTATIVA ---------------------
+SELECT projeto.id_projeto, descricao, empregado_projeto.id_projeto, atividade.descricao
+ FROM projeto JOIN empregado_projeto
+ ON projeto.id_projeto = empregado_projeto.id_projeto
+ JOIN atividade
+ ON empregado_projeto.id_atividade = atividade.id_atividade
+ WHERE atividade.descricao LIKE 'M%' 
+
+6. SELECT departamento.id_departamento, empregado.sobrenome, projeto.descricao, empregado_projeto.id_atividade FROM departamento JOIN projeto USING (id_departamento) JOIN empregado_projeto USING (id_projeto) JOIN empregado USING (id_empregado)
+WHERE departamento.id_departamento=3
+ORDER BY projeto.descricao, empregado_projeto.data_inicio;
+
+7. SELECT departamento.id_departamento, empregado.sobrenome, projeto.descricao, empregado_projeto.id_atividade 
+FROM departamento JOIN projeto ON departamento.id_departamento=projeto.id_projeto JOIN empregado_projeto USING (id_projeto) JOIN empregado USING (id_empregado) WHERE departamento.id_departamento BETWEEN 2 AND 5 ORDER BY departamento.id_departamento, empregado.sobrenome;  
+
+8. SELECT atividade.id_atividade, empregado.primeiro_nome, empregado_projeto.id_projeto, empregado_projeto.data_inicio
+FROM empregado JOIN empregado_projeto ON empregado.id_empregado=empregado_projeto.id_empregado JOIN atividade USING (id_atividade) 
+WHERE empregado_projeto.data_inicio = '2014-05-08' ORDER BY atividade.id_atividade, empregado_projeto.data_inicio; 
+
+10. SELECT * , empregado.primeiro_nome, empregado.sobrenome
+FROM departamento JOIN empregado
+ORDER BY departamento.nome;                                                                                                                                                                                   

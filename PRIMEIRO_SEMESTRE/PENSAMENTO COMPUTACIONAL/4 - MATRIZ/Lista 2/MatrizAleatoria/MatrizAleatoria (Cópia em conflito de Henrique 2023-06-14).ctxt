@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MatrizAleatoria
+comment1.params=linhas\ colunas
+comment1.target=MatrizAleatoria(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ somaLinhaColuna()
+comment4.params=n
+comment4.target=int\ multiplicaPor2(int)
+comment5.params=n
+comment5.target=int[][]\ somaCom(int[][])
+numComments=6

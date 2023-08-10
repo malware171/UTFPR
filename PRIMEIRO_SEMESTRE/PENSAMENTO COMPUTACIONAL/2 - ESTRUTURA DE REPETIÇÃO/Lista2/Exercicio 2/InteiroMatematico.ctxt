@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=InteiroMatematico
+comment1.params=n
+comment1.target=InteiroMatematico(int)
+comment2.params=
+comment2.target=void\ setNumero()
+comment3.params=
+comment3.target=int\ getNumero()
+numComments=4
